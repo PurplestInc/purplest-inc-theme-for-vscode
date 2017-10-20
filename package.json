@@ -1,0 +1,22 @@
+{
+    "name": "purplest-inc-ui-and-syntax-theme-for-vscode",
+    "displayName": "Purplest, Inc. UI and Syntax Theme for VSCode",
+    "description": "A purple accented UI and Syntax theme for the Visual Studio Code text editor.",
+    "version": "0.0.1",
+    "publisher": "purplest-inc",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Purplest, Inc. UI and Syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/purplest-inc-ui-and-syntax-color-theme.json"
+            }
+        ]
+    }
+}
